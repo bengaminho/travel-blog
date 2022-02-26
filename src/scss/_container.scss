@@ -1,0 +1,62 @@
+@use "./variables" as *;
+
+.header {
+  max-width: 768px;
+  margin: auto;
+  padding: $spacer;
+}
+
+.container-wrapper {
+  background-color: $dark-1;
+  padding: $spacer;
+}
+
+.container-wrapper {
+  article {
+    margin-bottom: $spacer*2;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        color: rgba($primary, 0.5);
+      }
+    }
+  }
+  article:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.article-toprow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-date {
+  margin-bottom: $spacer-half;
+  font-size: 0.9em;
+  color: rgba($primary, 0.8);
+}
+
+.article-goback {
+  margin-bottom: $spacer-half;
+  font-size: 1em;
+  color: rgba($primary, 0.8);
+  text-decoration: none;
+
+  &:hover {
+    color: rgba($primary, 0.5);
+  }
+}
+
+.article-content {
+  p:not(:first-child) {
+    margin-top: $spacer-half;
+  }
+
+  h2, h3 {
+    margin-top: $spacer;
+    margin-bottom: -$spacer-half;
+  }
+}

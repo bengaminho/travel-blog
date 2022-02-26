@@ -1,0 +1,9 @@
+@use "sass:math";
+
+
+$primary: #DE669C;
+$dark-0: #121212;
+$dark-1: #1F1B24;
+
+$spacer: 30px;
+$spacer-half: math.div($spacer, 2);

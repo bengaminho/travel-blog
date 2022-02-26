@@ -1,0 +1,43 @@
+@use "./variables" as *;
+
+
+@font-face {
+  font-family: Montserrat;
+  src: local('Montserrat'), url(../fonts/Montserrat-ExtraLight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: local('Merriweather'), url(../fonts/Merriweather-Light.ttf) format('truetype');
+}
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+  font-family: Montserrat, serif;
+  color: $primary;
+}
+
+h1, .h1 {
+  font-size: 3em;
+  font-variant: small-caps;
+  background-color: $primary;
+  color: $dark-0;
+  padding: $spacer-half $spacer;
+  margin-top: $spacer*2;
+  margin-bottom: $spacer-half;
+}
+
+h2, .h2 {
+  font-size: 2em;
+  font-variant: small-caps;
+  display: block;
+}
+
+h3, .h3 {
+  font-size: 1.5em;
+  font-variant: small-caps;
+}
+
+p {
+  font-family: Merriweather, sans-serif;
+  font-size: 1em;
+}
