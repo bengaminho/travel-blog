@@ -19,7 +19,7 @@
       text-decoration: none;
 
       &:hover {
-        color: rgba($primary, 0.5);
+        color: rgba($primary, 0.7);
       }
     }
   }
@@ -36,17 +36,17 @@
 .article-date {
   margin-bottom: $spacer-half;
   font-size: 0.9em;
-  color: rgba($primary, 0.8);
+  color: $primary;
 }
 
 .article-goback {
   margin-bottom: $spacer-half;
   font-size: 1em;
-  color: rgba($primary, 0.8);
+  color: $primary;
   text-decoration: none;
 
   &:hover {
-    color: rgba($primary, 0.5);
+    color: rgba($primary, 0.7);
   }
 }
 
@@ -59,4 +59,14 @@
     margin-top: $spacer;
     margin-bottom: -$spacer-half;
   }
+}
+
+span + em {
+  margin-bottom: $spacer-half;
+  font-size: 0.9em;
+  color: $primary;
+}
+
+em {
+
 }

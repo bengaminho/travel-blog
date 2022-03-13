@@ -7,7 +7,7 @@ export default function Blog({ data }) {
     const { posts } = data.blog
 
     return (
-            <Layout pageTitle={'Title of this blog'}>
+            <Layout pageTitle={'kind of a travel blog'}>
 
             {posts.map(post => (
                 <article key={post.id}>

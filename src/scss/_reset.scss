@@ -45,3 +45,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+html {
+  margin-left: calc(100vw - 100%);
+}

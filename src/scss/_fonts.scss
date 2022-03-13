@@ -10,6 +10,10 @@
   font-family: Merriweather;
   src: local('Merriweather'), url(../fonts/Merriweather-Light.ttf) format('truetype');
 }
+@font-face {
+  font-family: MerriweatherItalic;
+  src: local('MerriweatherItalic'), url(../fonts/Merriweather-LightItalic.ttf) format('truetype');
+}
 
 h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
   font-family: Montserrat, serif;
@@ -40,4 +44,8 @@ h3, .h3 {
 p {
   font-family: Merriweather, sans-serif;
   font-size: 1em;
+}
+
+em {
+  font-family: MerriweatherItalic, serif;
 }
