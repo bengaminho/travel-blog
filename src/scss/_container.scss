@@ -6,6 +6,30 @@
   padding: $spacer;
 }
 
+/*.footer {
+  max-width: 768px;
+  margin-inline: auto;
+  margin-top: $spacer-half;
+  padding-inline: $spacer;
+  padding-block: $spacer-half;
+  background-color: $dark-1;
+  display: flex;
+
+    a {
+      font-size: 1px;
+    }
+
+    svg:hover {
+        color: green;
+    }
+}*/
+
+.social-icon {
+  height: 25px;
+  width: auto;
+  margin-right: $spacer-half;
+}
+
 .container-wrapper {
   background-color: $dark-1;
   padding: $spacer;
