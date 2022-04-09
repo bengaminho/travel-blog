@@ -21,10 +21,10 @@ const Layout = ({ pageTitle, children }) => {
                     <div className={'container-wrapper'}>
                         {children}
                     </div>
-                  <footer className={'footer'}>
+                  {/*<footer className={'footer'}>
                     <a href={'https://www.instagram.com/bengaminho/'} target={'_blank'}><img className={'social-icon'} src={instaLogo}/></a>
                     <a href={'https://twitter.com/bengaminho'} target={'_blank'}><img className={'social-icon'} src={twitterLogo}/></a>
-                  </footer>
+                  </footer>*/}
                 </main>
             </div>
     )
