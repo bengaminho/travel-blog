@@ -19,6 +19,7 @@ On Sunday it was then time to leave to Amsterdam. Upon arrival I was greeted wit
 Little did I know that I would meet one very British and talkative guy there and later on a couple more in the next door coffeeshop. So I was somehow on my feet again, doing some window shopping in the red-light district with a bunch of lads from the UK who could not have acted more like British tourists if they tried. But it was a fun group and when they decided at some point after midnight to go clubbing, I took my leave for the night and went to bed.
 
 ![Amsterdam during Sundown](../images/amsterdam-during-sundown.jpg)
+
 ![Amsterdam Canals](../images/amsterdam-canals.jpg)
 *Amsterdam during sundown is a beautiful sight*
 
