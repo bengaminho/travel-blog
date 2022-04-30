@@ -49,3 +49,12 @@ p {
 em {
   font-family: MerriweatherItalic, serif;
 }
+
+a {
+  color: $primary;
+  text-decoration: none;
+
+  &:hover {
+    color: rgba($primary, 0.7);
+  }
+}
