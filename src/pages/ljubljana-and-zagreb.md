@@ -1,5 +1,5 @@
 ---
-title: Finally, some good fucking COVID
+title: Ljubljana, Zagreb and Covid
 author: Ben
 date: 2022-05-01
 ---
